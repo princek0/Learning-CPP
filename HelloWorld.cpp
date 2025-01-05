@@ -31,7 +31,5 @@ int main() // The name of a function is called an 'identifier'
 
    std::cout << "x is equal to: " << x << '\n'; // single quoted (by itself) (conventional)
    
-   
-   
    return 0; // Returning 0 indicates that the function worked properly 
 }
