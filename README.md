@@ -1,2 +1,2 @@
 # Learning-CPP
-Random C++ projects/solutions/implementations. 
+Random C++ projects/solutions to problems/implementations. 
