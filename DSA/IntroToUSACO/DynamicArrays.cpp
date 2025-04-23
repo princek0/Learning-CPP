@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+/* Dynamic arrays are known as vectors in C++ */
+
 int main(){
     
     vector<int> v; //Initialising a dynamic array with integer elements
