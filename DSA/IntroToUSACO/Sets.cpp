@@ -1,7 +1,6 @@
 #include <iostream>
 #include <unordered_set>
 #include <set>
-#include <multiset>
 using namespace std;
 
 /*
@@ -37,6 +36,15 @@ As well as the operations supported by the unordered set, ordered sets allow:
 */
 
 /*
+
+A multiset is an ordered set which allows multiple copies of the same element.
+
+It does all the functions of the ordered set in O(logn) but also has a count() method.abort
+
+count() returns the number of times an element is present in the multiset. The time complexity
+for this is O(logn + f) where f is the number of occurences of the specified element.
+
+
 
 */
 
@@ -76,6 +84,16 @@ int main(){
     s.erase(s.upper_bound(6)); // [1, 2, 14]
 
     // multiset
+
+    multiset<int> m_s;
+
+    m_s.insert(14); // [14]
+    m_s.insert(1); // [1, 14]
+    m_s.insert(1); // [1, 1, 14]
+
+    cout << m_s.count(1) << endl; // 2
+
+
 
     return 0;
 }
