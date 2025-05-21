@@ -5,9 +5,9 @@ using namespace std;
 }
 
 int main(){
-    int n;
-    int x;
-    vector<int> coins;
+    int n; // number of coins
+    int x; // desired number
+    vector<int> coins; // list of coin values
 
     cin >> n;
     cin >> x;
